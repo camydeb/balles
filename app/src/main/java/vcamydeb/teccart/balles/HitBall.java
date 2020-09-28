@@ -7,13 +7,13 @@ import android.view.MenuItem;
 
 public class HitBall extends AppCompatActivity {
 
-    public int numero = 0;
+
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        numero = 1;
+
 // setContentView(R.layout.activity_hit_ball);
 
         StartScreen startScreen = new StartScreen(this);
